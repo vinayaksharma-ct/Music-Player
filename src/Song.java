@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Song {
     String title;
     String Artist_Name;
-    int counter;
+    int counter=0;
     List<Date> date;
 
     public Song(String title,String Artist_Name){
